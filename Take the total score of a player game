@@ -1,7 +1,7 @@
 wins = int(input())
 ties = int(input())
 
-score = (wins*3 + ties)
+score = (wins + ties)
 
 message = ("Score: " + str(score))
 
