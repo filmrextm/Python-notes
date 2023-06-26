@@ -1,0 +1,8 @@
+wins = int(input())
+ties = int(input())
+
+score = (wins*3 + ties)
+
+message = ("Score: " + str(score))
+
+print(message)
